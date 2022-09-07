@@ -5,13 +5,35 @@
 
 h2 {
     color: red; /*Text colour */
-    
+    display: inline;
 }
 
 /*
     color
-    backgorun-color
+    background-color
     margin
     padding
     display
 */
+
+.green-text {
+    color: green;
+}
+
+.display-100 {
+    min-height: 100vh;
+}
+
+.text-centre {
+    text-align: center;
+    padding-top: 40vh;
+}
+
+#main-text {
+    font-size: 40px;
+}
+
+#hero-colour {
+    background-color: rgb(103, 234, 131);
+
+}
